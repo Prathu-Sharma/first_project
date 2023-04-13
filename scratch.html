@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+         *{
+             margin:0px;
+             padding: 0px;
+         }
+         body{
+             background-image: url("a1.jpg");
+             box-sizing: border-box;
+         }
+
+         .s1{
+             background-image: #000;
+position: relative;
+width: 100%;
+height: 100vh;
+         }
+
+         
+     </style>
+</head>
+<body>
+    <div class="s1"></div>
+    <script src=" https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="wScratchPad-master/wScratchPad.min.js"></script>
+    <script>
+    $('.s1').wScratchPad({
+        size        : 80,         
+        bg          : 'a1.jpg', 
+        fg          : '#6449ff', 
+    });  </script>
+</body>
+</html>
